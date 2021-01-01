@@ -1,0 +1,91 @@
+html,
+body {
+margin: 0;
+padding: 0;
+font-family: "Sansation", "open sans", sans-serif;
+background: #ffffff;
+}
+header {
+margin: auto;
+background: darkblue;
+height: 70px;
+width: 100%;
+}
+.home-page {
+margin: auto;
+margin-top: 50px;
+padding-bottom: 50px;
+width: 80%;
+height: auto;
+}
+.mail-bloc {
+margin: 10px auto;
+width: 100%;
+height: auto;
+box-shadow: 0px 1px 0px 0px #b8b8b8;
+padding-bottom: 15px;
+}
+.home-page div button {
+margin: auto;
+outline: 0;
+margin-top: 20px;
+cursor: pointer;
+font-family: "Sansation", "open sans", sans-serif;
+border: none;
+border-radius: 50px;
+color: #ffffff;
+width: 120px;
+height: 30px;
+transition: 0.7s;
+}
+.reject { background: #36368f; }
+.accept { background: #009300; }
+.reject:hover {
+background: #e4e4e4;
+color: darkblue;
+}
+.accept:hover {
+background: #e4e4e4;
+color: green;
+}
+.home-page p {
+margin: 7px auto;
+}
+.modal {
+margin: auto;
+position: relative;
+display: none;
+transition: 0.3s;
+width: 99%;
+height: auto;
+border-radius: 5px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 10px;
+background: #e8e8e8;
+}
+.home-page select {
+margin: auto;
+outline: 0;
+height: 30px;
+border: solid 1px #cfcfcf;
+border-radius: 10px;
+color: #646464;
+font-weight: 500;
+font-family: "Sansation", "open sans", sans-serif;
+}
+footer {
+margin: auto;
+margin-top: 50px;
+}
+footer span {
+margin: auto;
+font-size: 13px;
+font-family: "Open sans", sans-serif;
+color: #8a8a8a;
+}
+@media screen and (max-width: 1000px) {
+.home-page {width: 90%;}
+}
+@media screen and (max-width: 700px) {
+}

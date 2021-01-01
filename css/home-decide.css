@@ -1,0 +1,92 @@
+html,
+body {
+margin: 0;
+padding: 0;
+background: #ffffff;
+}
+header {
+margin: auto;
+background: #ececec;
+height: 100px;
+width: 100%;
+}
+header img {
+margin: auto;
+position: absolute;
+margin-top: 15px;
+margin-left: 12%;
+width: 180px;
+}
+header span {
+margin: auto;
+padding: 10px 15px 10px 15px;
+background: darkblue;
+border-radius: 100px;
+color: #ffffff;
+text-transform: uppercase;
+font-family: "open sans", sans-serif;
+font-weight: bold;
+font-size: 14px;
+}
+header div {
+margin: auto;
+position: absolute;
+margin-left: 62%;
+margin-top: 40px;
+text-transform: capitalize;
+font-size: 14px;
+}
+.home-page {
+margin: auto;
+padding-bottom: 50px;
+margin-left: 20%;
+height: auto;
+}
+.home-page {
+margin: auto;
+margin-top: 20px;
+width: 77%;
+}
+.menu {
+margin: auto;
+position: absolute;
+background: #ececec;
+width: 30%;
+height: 400px;
+}
+.menu li {
+margin: auto;
+font-size: 15px;
+list-style: none;
+font-family: "open sans", sans-serif;
+font-weight: 500;
+}
+.menu a {
+margin: auto;
+text-decoration: none;
+color: darkblue;
+}
+.menu span {
+margin: auto;
+margin-left: 10%;
+font-family: "open sans", sans-serif;
+font-size: 25px;
+color: #000000;
+}
+.menu button {
+margin: auto;
+background: #cd0000;
+font-family: "open sans", sans-serif;
+font-weight: 500;
+border-radius: 10px;
+border-style: none;
+height: 30px;
+color: #ffffff;
+}
+.left {
+background: green;
+margin: auto;
+margin-left: 40%;
+width: 55%;
+height: 600px;
+}

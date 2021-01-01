@@ -1,0 +1,81 @@
+html,
+body {
+margin: 0;
+padding: 0;
+font-family: "Sansation", "open sans", sans-serif;
+background: #ffffff;
+}
+header {
+margin: auto;
+background: darkblue;
+height: 70px;
+width: 100%;
+}
+.home-page {
+margin: auto;
+padding-bottom: 50px;
+width: 80%;
+height: auto;
+}
+.home-page div {
+margin: auto;
+margin-top: 30px;
+}
+.home-page select {
+margin: auto;
+outline: 0;
+height: 30px;
+border: solid 1px #cfcfcf;
+border-radius: 10px;
+color: #646464;
+font-weight: 500;
+font-family: "Sansation", "open sans", sans-serif;
+}
+.home-page div li {
+margin: auto; padding:0;
+list-style: none;
+height: 30px;
+}
+.home-page div button {
+margin: auto;
+outline: 0;
+margin-top: 20px;
+cursor: pointer;
+font-family: "Sansation", "open sans", sans-serif;
+border: none;
+border-radius: 50px;
+background: #36368f;
+color: #ffffff;
+width: 150px;
+height: 30px;
+}
+.home-page div button:hover {
+font-weight: bold;
+transition: 0.7s;
+}
+.home-page div input {
+margin: auto;
+outline: 0;
+border: solid 2px darkblue;
+color: darkblue;
+width: 15px;
+height: 15px;
+}
+footer {
+margin: auto;
+margin-top: 50px;
+}
+footer span {
+margin: auto;
+font-size: 13px;
+font-family: "Open sans", sans-serif;
+color: #8a8a8a;
+}
+@media screen and (max-width: 1000px) {
+.home-page {width: 90%;}
+}
+@media screen and (max-width: 700px) {
+.home-page { width: 100%; }
+.home-page img {width: 100px;}
+.home-page div {margin-left: 5%;;}
+}
